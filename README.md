@@ -1,2 +1,10 @@
 # JuanGPT
-Proyecto de chatbot usando Python, JSON, HTML, CSS y JavaScript
+Proyecto de chatbot
+
+Compilar desde chatbot.py
+
+TECNOLOGIAS:
+- Python
+- HTML
+- CSS
+- JavaScript
