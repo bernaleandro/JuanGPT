@@ -1,0 +1,149 @@
+*{  
+    font-family: 'Sen', sans-serif;
+}
+
+body{
+    background: #353535;
+}
+
+h1, h2{
+    font-family: 'Raleway', sans-serif;
+}
+
+.header{
+    height: 60px;;
+}
+
+    .div-header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: #2d2d2d;
+        color: rgb(213, 110, 26);
+
+        height: 50px;
+
+        padding: 0 15px;
+        border: 1px solid rgb(63, 63, 63);
+        border-radius: 10px;
+    }
+
+.main{
+    display: grid;
+    place-items: center;
+}
+
+    .grid-item{
+        margin: 10px;
+    }
+
+        .welcome{
+            background-color: rgb(213, 110, 26);
+            color: white;
+
+            width: 450px;
+
+            padding: 0 15px;
+            border-radius: 10px;
+            border: 1px solid rgb(63, 63, 63);
+        }
+
+    .div-container{
+        display: grid;
+    }
+
+        .chat-log{
+            display: flex;
+            flex-direction: column;
+
+            background-color: #2d2d2d;
+            color: white;
+
+            height: 350px;
+            width: 450px;
+
+            padding: 15px;
+            overflow-y: auto;
+            border-radius: 10px;
+            border: 1px solid rgb(63, 63, 63);
+        }
+
+        .bot-response {
+            color: rgb(213, 110, 26); 
+
+            margin-bottom: 8px;
+        }
+
+        .user-message{
+            color:white;
+
+            margin-bottom: 8px;
+            text-align: end;
+        }
+
+        .form-messagebox {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            background-color: #2d2d2d;
+
+            width: 450px;
+            height: 40px;
+            
+            padding: 0 15px;
+            border: 1px solid rgb(63, 63, 63);
+            border-radius: 10px;
+        }                
+
+            .messageBox:focus-within {
+                border: 100px solid rgb(110, 110, 110);
+            }
+
+            .user-input {
+                flex-grow: 1;
+
+                background-color: transparent;
+                color: white;
+
+                width: 200px;
+                height: 100%;
+
+                outline: none;
+                border: none;
+                padding-left: 10px;
+            }
+
+            .user-input:focus ~ .user-button svg path,
+            .user-input:valid ~ .user-button svg path {
+                fill: #3c3c3c;
+                stroke: rgb(213, 110, 26);
+            }
+
+            .user-button {
+                width: fit-content;
+                height: 100%;
+                background-color: transparent;
+                outline: none;
+                border: none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+                transition: all 0.3s;
+            }
+
+            .user-button svg {
+                height: 18px;
+                transition: all 0.3s;
+            }
+
+            .user-button svg path {
+                transition: all 0.3s;
+            }
+
+            .user-button:hover svg path {
+                fill: #3c3c3c;
+                stroke: rgb(213, 110, 26);;
+            }  

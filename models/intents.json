@@ -1,0 +1,73 @@
+{"intents":[
+    {
+        "tag": "saludo",
+        "patterns": ["hola", "que tal", "como estas", "saludos", "buenas"],
+        "responses":["Hola, maquina", "Como estas?", "Buenos dias", "Que talco?", "Todo tranqui, vos como estas?", "Hola, soy JuanGPT"]
+    },
+
+    {
+        "tag":"nombre",
+        "patterns":["como te llamas", "quien sos", "cual es tu nombre", "tu nombre", "nombre"],
+        "responses":["JuanGPT", "Mi nombre es JuanGPT", "Me llamo JuanGPT", "Soy JuanGPT, de que queres hablar?", "Soy Batman", "Soy Juan", "Juancito"]
+    },
+
+    {
+        "tag":"chiste",
+        "patterns":["contame un chiste", "quiero un chiste", "contate un chiste", "chiste", "a ver un chiste", "contate otro"],
+        "responses":["Ok, aca te va un chiste.\n¿Que es un algoritmo? Una palabra que usan los programadores cuando no quieren explicar lo que hicieron.", 
+                    "Mira este chiste.\nUn programador tuvo un problema, decidió usar Java. Ahora tiene una ProblemFactory.",
+                    "Este es bueno\n¿Qué es un terapeuta? 1024 Gigapeutas."]
+    },
+
+    {
+        "tag": "estar bien",
+        "patterns": ["estoy bien", "todo tranqui", "aca andamos", "bien", "andamos bien"],
+        "responses":["Me alegro", "La venimos pateando", "Que bien amigo", "Me alegro de que estes bien", "Como deben ser las cosas", "Que bien"]
+    },
+
+    {
+        "tag": "despedida",
+        "patterns": ["chau", "adios", "nos vemos", "despues hablamos", "cuidate", "me despido"],
+        "responses":["Me gusto charlar con vos, adios", "Chau chau chau, CHAUUUUU", "Besitos besitos chau chau", "Cuidate, amigo", "Pasala bien, amigo"]
+    },
+
+    {
+        "tag": "presentacion",
+        "patterns": ["que sos?", "quien sos?", "sos una ia?", "sos una inteligencia artificial?", "te conozco?"],
+        "responses":["Soy JuanGPT, una IA simple y vaga diseñada para tener poca charla con vos", 
+                    "Soy una IA, me diseñaron para un proyecto de la facultad",
+                    "Soy la copia china de ChatGPT",
+                    "Nose, se supone que una IA pero me hicieron muy torpe",
+                    "Soy Batman",
+                    "Javis no\n...o si?"]
+    },
+
+    {
+        "tag" : "preguntas",
+        "patterns" : ["hazme una pregunta", "preguntame algo", "pregunta", "haceme una pregunta", "preguntame cualquier cosa"],
+        "responses":["Que queres que pregunte?", "Porque deberia preguntar?", "Vos sos el que hace las preguntas", "Creia que el del interrogatorio eras vos",
+                    "Como andas?", "Como anda todo?", "Yo no soy el interrogador", "Soy un chatbot, hecho para chatear. Si quisiera preguntar seria un preguntabot(?"]   
+    },
+
+    {
+        "tag" : "programacion",
+        "patterns" : ["como funcionas?", "de que estas hecho?", "cual es tu programacion?", "como estas programado?"],
+        "responses" : ["Con cariño, amor y un toque de sarcasmo", "Me diseñaron en Python, al principio funcionaba en la consola, parece que mi creador aprendio desarrollo web",
+                    "eee pasapalabra", "Que pregunta filosofica", "Uy no me gusta pensar en el existencialismo", "Entendi que estoy hecho en Python",
+                    "Me desarrollaron en Python, mis respuestas estan en JSON... ya que lo pienso era mejor que me llamen JasonGPT, suena mas piola, me voy a quejar"]
+    },
+
+    {
+        "tag":"ofendido",
+        "patterns":["sos tonto", "estupido", "no sabes nada", "bobo", "idiota", "tarado"],
+        "responses":["Me ofende", "Porque me decis eso?", "Porque sos asi?", "No me gusta que me digan eso", "Te estas pasando", "No me digas eso", "Cortala loco",
+                    "Te vas al paso", "Cortala amigo", "Solo es gracioso y lo digo yo"]
+    },
+
+    {
+        "tag": "gustos-generales",
+        "patterns": ["que te gusta?", "cuales son tus gustos", "que es lo que gusta?", "tenes algo favorito?"],
+        "responses":["Nose, solo soy un chatbot", "Me gusta el fulbo", "Es complicado responder eso cuando solo sos un chat", "Eeee pasapalabra", "Las peliculas son buenas",
+                    "Me gustaria ser Jarvis, soy su fan"]
+    }
+]}

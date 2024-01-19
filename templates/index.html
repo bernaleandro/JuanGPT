@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@500&display=swap" rel="stylesheet">
+    <!-- {{ url_for('static', filename='style.css') }} -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>JuanGPT</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="div-header">
+                <h1>
+                    JuanGPT
+                </h1>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="div-welcome grid-item">
+            <div class="welcome">
+                <h2>Conversa con Juan</h2>
+                <p>
+                    El es un proyecto de ChatBot de Ingenieria en Sistemas diseñado en Python
+                    con un archivo de respuestas en JSON. Como primer proyecto se busca que tenga
+                    la capacidad de contestar preguntas simples.
+                </p>
+            </div>
+        </div>
+        <div class="div-container grid-item">
+            <div>
+                <!-- <textarea class="chat-log" cols="45" rows="25" readonly></textarea> -->
+                <div class="chat-log"></div>
+            </div>
+            <br>
+            <div class="form-messagebox">
+                <input class="user-input" type="text" placeholder="Escribele algo a Juan" required="">
+                <button class="user-button" onclick="sendMessage()">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 664 663">
+                        <path fill="none" d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                        </path>
+                        <path stroke-linejoin="round" stroke-linecap="round" stroke-width="33.67" stroke="#6c6c6c" d="M646.293 331.888L17.7538 17.6187L155.245 331.888M646.293 331.888L17.753 646.157L155.245 331.888M646.293 331.888L318.735 330.228L155.245 331.888">
+                        </path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </main>
+    <!-- {{ url_for('static', filename='script.js') }} -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
