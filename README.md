@@ -24,4 +24,4 @@ Proyecto personal de chatbot. Desarrollado principalmente en Python (librerias: 
     <img src=https://i.postimg.cc/nhQ9L8mC/json-logo-icon-145143.png style="width: 5%; height: auto" title="JSON"/>
 </p>
 <br><br>
-<p align="center">Proyecto hecho desde Agosto 2023 hasta Enero 2024</p>
+<p align="center">Proyecto desarrollado desde Agosto 2023 hasta Enero 2024</p>
